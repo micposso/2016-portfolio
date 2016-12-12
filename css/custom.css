@@ -1,0 +1,127 @@
+
+body {
+  background: url("/img/bg-pattern.png") repeat top;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: transparent;
+}
+
+.border-nav {
+  border-bottom: 1px #ccc solid;
+}
+
+.project-container {
+  padding: 10px;
+}
+
+.header-content {
+      margin-top: 75px;
+
+}
+
+.headline {
+  font-family: 'Libre Baskerville', serif;
+  color: 1c1c1c;
+}
+
+.headline h1 {
+  font-size: 115px;
+  line-height: 125px;
+}
+
+.headline h2 {
+  font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.icon-tool {
+  margin-right: 10px;
+}
+
+.tool-bar {
+  margin-top: 20px;
+}
+
+
+.icon-title {
+text-indent: 100%; white-space: nowrap; overflow: hidden;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  
+}
+
+/* FLIP effect */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 100%;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.text-thumb {
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.thumb-title {
+  font-family: 'Libre Baskerville', serif;
+  color: 1c1c1c;
+  font-size: 30px;
+  margin-top: 20%;
+}
+
+.thumb-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  color: 1c1c1c;
+}
+
+
