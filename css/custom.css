@@ -1,4 +1,8 @@
 
+.thumbs {
+  height: 390px;
+}
+
 body {
   background: url("/img/bg-pattern.png") repeat top;
 }
@@ -80,7 +84,6 @@ text-indent: 100%; white-space: nowrap; overflow: hidden;
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
 	position: relative;
 }
 
