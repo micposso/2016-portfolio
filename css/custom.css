@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url("/img/bg-pattern.png") repeat top;
+  background-image: url("/img/bg-pattern.png");
 }
 
 .navbar {
@@ -28,7 +28,6 @@ body {
 
 .header-content {
       margin-top: 75px;
-
 }
 
 .headline {
@@ -43,8 +42,7 @@ body {
 
 .headline h2 {
   font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif;
-
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .icon-tool {
@@ -55,6 +53,15 @@ body {
   margin-top: 20px;
 }
 
+.icon-social {
+  height: 30px;
+}
+
+/* social media navigation */
+
+.instagram-icon {
+  text-indent: 1000;
+}
 
 .icon-title {
 text-indent: 100%; white-space: nowrap; overflow: hidden;
@@ -63,7 +70,6 @@ text-indent: 100%; white-space: nowrap; overflow: hidden;
 .twitter {
   width: 30px;
   height: 30px;
-  
 }
 
 /* FLIP effect */
@@ -125,6 +131,11 @@ text-indent: 100%; white-space: nowrap; overflow: hidden;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
   color: 1c1c1c;
+}
+
+.footer-copy {
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 50px;
 }
 
 
