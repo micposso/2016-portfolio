@@ -1,23 +1,21 @@
 
-.thumbs {
-  height: 390px;
-}
 
 body {
-/*(background: url(../img/bg-pattern.png) center center repeat;*/
+  /*(background: url(../img/bg-pattern.png) center center repeat;*/
 }
+
 
 /* top navigation */
 
 .navbar {
-    margin-bottom: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 17px;
+  margin-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
 }
 
 .navbar-default {
   background-color: #fff;
-    border-color: transparent;
+  border-color: transparent;
 }
 
 .border-nav {
@@ -25,30 +23,12 @@ body {
 }
 
 .icon-title {
-text-indent: 100%; white-space: nowrap; overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.instagram-icon {
 
-  margin-top: 15px;
-}
-
-.instagram-icon a {
-  text-indent: -1500px;
-  display: block;
-    background: url('../img/social-media-icons-small.png') center top no-repeat;
-  width: 30px;
-  height: 30px;
-	-webkit-transition: all ease 0.3s;
-	-moz-transition: all ease 0.3s;
-	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3s;
-	transition: all ease 0.3s;
-}
-
-.instagram-icon a:hover {
-  background-position: 0px -30px;
-}
 /* header */
 
 .project-container {
@@ -56,7 +36,7 @@ text-indent: 100%; white-space: nowrap; overflow: hidden;
 }
 
 .header-content {
-      margin-top: 75px;
+  margin-top: 75px;
 }
 
 .headline {
@@ -84,116 +64,145 @@ text-indent: 100%; white-space: nowrap; overflow: hidden;
 
 
 /* footer */
-.icon-social {
-  height: 30px;
-}
+
 
 /* social media navigation */
 
-.instagram-icon {
-  text-indent: 1000;
+.social-icon {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  text-indent: -2000px;
+  display: block;
+  margin-left: 10px;
 }
 
+.instagram {
+  background: url('../img/social-media-icons-small.png') top center no-repeat;
+}
+
+.instagram:hover {
+  background-position: 0px -30px;
+}
+
+.linkedin {
+  background: url('../img/social-media-icons-small.png') 0px -60px no-repeat;
+}
+
+.linkedin:hover {
+  background-position: 0px -90px;
+}
+
+.youtube {
+  background: url('../img/social-media-icons-small.png') 0px -120px no-repeat;
+}
+
+.youtube:hover {
+  background-position: 0px -150px;
+}
+
+.github {
+  background: url('../img/social-media-icons-small.png') 0px -180px no-repeat;
+}
+
+.github:hover {
+  background-position: 0px -210px;
+}
+
+.twitter {
+  background: url('../img/social-media-icons-small.png') 0px -240px no-repeat;
+}
+
+.twitter:hover {
+  background-position: 0px -270px;
+}
+
+
+/* footer */
 
 .footer {
   padding: 60px 0 60px 0px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .twitter {
   width: 30px;
   height: 30px;
 }
 
-/* FLIP effect */
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
 
-.flip-container, .front, .back {
-	width: 100%;
+/* Thumbnails and flip effect */
+
+.thumbs {
+  height: 390px;
 }
+
+
+/* entire container, keeps perspective */
+
+.flip-container {
+  perspective: 1000px;
+  height: 379px;
+}
+
+
+/* flip the pane when hovered */
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+  width: 100%;
+}
+
 
 /* flip speed goes here */
+
 .flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
 }
+
 
 /* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
 
-	position: absolute;
-	top: 0;
-	left: 0;
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
 
 /* front pane, placed above back */
+
 .front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
 }
 
+
 /* back, initially hidden pane */
+
 .back {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .text-thumb {
   text-align: center;
   padding: 50px;
-  
 }
 
 .thumb-title {
@@ -214,37 +223,23 @@ text-indent: 100%; white-space: nowrap; overflow: hidden;
   height: 50px;
 }
 
-
 @media (max-width: 700px) {
-  
-.headline h1 {
+  .headline h1 {
     font-size: 48px;
     line-height: 62px;
+  }
 }
-  
-}
-
 
 @media (max-width: 1000px) {
-  
-.headline h1 {
+  .headline h1 {
     font-size: 48px;
     line-height: 62px;
-}
-  
-  
+  }
   .thumbs {
     height: auto;
-}
-  
+  }
   .project-container {
     padding: 10px;
     height: 300px;
+  }
 }
-
-}
-
-
-
-
-
