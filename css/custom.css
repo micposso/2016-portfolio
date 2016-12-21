@@ -223,6 +223,14 @@ body {
   height: 50px;
 }
 
+/* projects */
+
+.col-centered{
+  margin-top: 50px;
+    float: none;
+    margin: 0 auto;
+}
+
 @media (max-width: 700px) {
   .headline h1 {
     font-size: 48px;
