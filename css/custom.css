@@ -63,9 +63,6 @@ body {
 }
 
 
-/* footer */
-
-
 /* social media navigation */
 
 .social-icon {
@@ -229,6 +226,32 @@ body {
   margin-top: 50px;
     float: none;
     margin: 0 auto;
+}
+
+.projects {
+  margin-top: 60px;
+}
+
+.projects-text-container {
+  padding: 0px 70px 0px 70px;
+}
+
+.projects-headline {
+    font-size: 70px;
+    line-height: 75px;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 30px;
+}
+.projects-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.project-thumb {
+  width: 100%;
+  min-width: 1170px;
 }
 
 @media (max-width: 700px) {
