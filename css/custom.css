@@ -1,11 +1,9 @@
-
-
 body {
   /*(background: url(../img/bg-pattern.png) center center repeat;*/
 }
 
 
-/* top navigation */
+/* _top navigation */
 
 .navbar {
   margin-bottom: 20px;
@@ -29,7 +27,7 @@ body {
 }
 
 
-/* header */
+/* _header */
 
 .project-container {
   padding: 10px;
@@ -62,8 +60,13 @@ body {
   margin-top: 20px;
 }
 
+.brand-mobile {
+  margin: 10px 10px;
+  float: left;
+}
 
-/* social media navigation */
+
+/* _social media navigation */
 
 .social-icon {
   margin-top: 15px;
@@ -120,7 +123,7 @@ body {
 }
 
 
-/* footer */
+/* _footer */
 
 .footer {
   padding: 60px 0 60px 0px;
@@ -200,6 +203,7 @@ body {
 .text-thumb {
   text-align: center;
   padding: 50px;
+  height: 378px;
 }
 
 .thumb-title {
@@ -220,12 +224,13 @@ body {
   height: 50px;
 }
 
-/* projects */
 
-.col-centered{
+/* _projects */
+
+.col-centered {
   margin-top: 50px;
-    float: none;
-    margin: 0 auto;
+  float: none;
+  margin: 0 auto;
 }
 
 .projects {
@@ -237,16 +242,17 @@ body {
 }
 
 .projects-headline {
-    font-size: 70px;
-    line-height: 75px;
-    font-family: 'Libre Baskerville', serif;
-    margin-bottom: 30px;
+  font-size: 70px;
+  line-height: 75px;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 30px;
 }
+
 .projects-text {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 50px;
 }
 
 .project-thumb {
@@ -254,23 +260,50 @@ body {
   min-width: 1170px;
 }
 
-@media (max-width: 700px) {
+
+/* _media queries */
+
+@media only screen and (max-width: 992px) {
   .headline h1 {
-    font-size: 48px;
-    line-height: 62px;
+    font-size: 90px;
+    line-height: 100px;
+  }
+    
+  .flip-container {
+      height: 280px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .headline h1 {
+    font-size: 80px;
+    line-height: 90px;
+  }
+  .tool-bar.nav>li {
+    position: relative;
+    display: block;
+    float: left;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .headline h1 {
+      font-size: 48px;
+      line-height: 55px;
+  }
+  .headline h2 {
+    font-size: 25px;
   }
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 320px) {
   .headline h1 {
-    font-size: 48px;
-    line-height: 62px;
+      font-size: 48px;
+      line-height: 55px;
   }
-  .thumbs {
-    height: auto;
-  }
-  .project-container {
-    padding: 10px;
-    height: 300px;
+  .headline h2 {
+    font-size: 20px;
   }
 }
