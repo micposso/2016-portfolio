@@ -11,9 +11,12 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/image.css">
+
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/ghost-typer.js"></script>
+  <script src="js/jquery.scrollUp.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
@@ -213,13 +216,9 @@
   messages: ['Websites', 'Emails', 'Banners', 'Robots']
   });
     
-
-
-
-  
-
-
-
+$(function () {
+    $.scrollUp({scrollImg: true});
+});
   </script>
   
 </body>
