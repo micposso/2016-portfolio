@@ -264,11 +264,22 @@ body {
   color: #333;
 }
 
-.projects-text {
+.projects-text, .projects-text-labs {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   line-height: 26px;
   margin-bottom: 50px;
+}
+
+.projects-text-labs {
+  margin-bottom: 20px;
+}
+
+.projects-lab {
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 15px;
 }
 
 .project-thumb {
