@@ -9,6 +9,10 @@ body {
   margin-left: 0px;
 }
 
+.single-img {
+  padding: 10px;
+}
+
 
 /* _top navigation */
 
@@ -245,14 +249,19 @@ body {
 }
 
 .projects-text-container {
-  padding: 0px 30px 0px 30px;
+  padding: 0px 10px 0px 10px;
 }
 
-.projects-headline {
+.projects-headline, .projects-next {
   font-size: 70px;
   line-height: 75px;
   font-family: 'Libre Baskerville', serif;
   margin-bottom: 30px;
+}
+
+.projects-next a {
+  text-decoration: none;
+  color: #333;
 }
 
 .projects-text {
@@ -312,6 +321,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  
   .headline h1 {
     font-size: 80px;
     line-height: 90px;
@@ -322,26 +332,51 @@ body {
     float: left;
   }
   
-    .text-thumb {
-  text-align: center;
-  padding: 50px;
-  height: 470px;
+  .text-thumb {
+     display: none;
   }
 
   .flip-container {
-    perspective: 1000px;
-    height: 470px;
+    perspective:none;
+    height: 100%;
+    min-height: 200px
   }
 
   .thumbs {
       height: auto;
   }
 
+/* _remove effect for mobile */
+  
+  /* flip the pane when hovered */
 
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  transform: none;
+}
+  
+  .front {
+    position:static;
+  }
+  
+      .projects-next {
+    font-size: 45px;
+    line-height: 50px;
+}
 
 }
 
 @media only screen and (max-width: 480px) {
+  .projects-headline {
+    font-size: 50px;
+    line-height: 55px;
+}
+  
+    .projects-next {
+    font-size: 30px;
+    line-height: 35px;
+}
+  
   .headline h1 {
       font-size: 48px;
       line-height: 55px;
