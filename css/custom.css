@@ -1,8 +1,13 @@
 body {
   /*(background: url(../img/bg-pattern.png) center center repeat;*/
+  background-color: #f8f8f8;
 }
 
 /* _layout */
+
+#hidden {
+  display: none;
+}
 
 .row {
   margin-right: 0px;
@@ -18,6 +23,15 @@ a:hover {
     text-decoration: underline;
 }
 
+#ghost {
+  font-style: italic;
+  color: #ff5851; 
+}
+
+.highlight {
+  color: #ff5851;
+}
+
 /* _top navigation */
 
 .navbar {
@@ -27,7 +41,7 @@ a:hover {
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #f8f8f8;
   border-color: transparent;
 }
 
@@ -67,12 +81,14 @@ a:hover {
 }
 
 .headline h1 {
-    font-size: 110px;
+    font-size: 122px;
     line-height: 120px;
-    word-spacing: 10px;
-    /*font-style: italic;*/
-    /*text-transform: uppercase;*/
+    word-spacing: 1px;
+    /* font-style: italic; */
+    /* text-transform: uppercase; */
+    letter-spacing: -4px;
 }
+
 
 .headline h2 {
   font-size: 25px;
@@ -189,6 +205,7 @@ a:hover {
 .front,
 .back {
   width: 100%;
+  background-color: #fff;
 }
 
 

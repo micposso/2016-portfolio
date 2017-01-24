@@ -57,11 +57,11 @@
       </div>
       <!--/.nav-collapse -->
     </div>
-  </nav>
+  </nav>  
   <div class="container">
     <div class="header-content">
        <div class="headline">
-         <h1>I like to<br>build <span id="ghost">websites</span><br>and other stuff </h1>
+         <h1>I like to<br>build <span id="ghost">websites</span><br>& other stuff</h1>
                     <h2 class="uppercase">These are some of the tools I use</h2>
 
       </div>
@@ -75,13 +75,14 @@
           <li><img src="img/angular-logo.svg" width="115" class="icon-tool"></li>
           <li><img src="img/gulp.svg" width="85" class="icon-tool"></li>
           <li><img src="img/Sass_Logo_Color.svg" width="100" class="icon-tool"></li>
+          <li><img src="img/github.svg" width="100" class="icon-tool"></li>
 
         </ul>
       </div>
     </div>
   </div>
   <!-- /container -->
-  <div class="container">
+  <div class="container" id="hidden">
     <div class="row thumbs">
       <div class="col-md-6 project-container">
        <a href="brooklyn-brewery.html">
@@ -92,7 +93,7 @@
                 </div>
                 <div class="back">
                     <div class="text-thumb">
-                      <div class="thumb-title">Brooklyn Brewery</div>
+                      <div class="thumb-title"><span class="highlight">~</span>Brooklyn Brewery<span class="highlight">~</span></div>
                       <div class="thumb-text uppercase">Event Registration Website</div>
                     </div>
                 </div>
@@ -212,13 +213,26 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
   <script>
-  $("#ghost").ghosttyper({
-  messages: ['Websites', 'Emails', 'Banners', 'Robots']
+    
+  $(document).ready(function () {
+    $('#hidden').fadeIn(2000).removeClass('hidden');
   });
     
-$(function () {
+    
+  $("#ghost").ghosttyper({
+    messages: ['Websites', 'Emails', 'Banners', 'Robots'],
+    timeWrite: 100,  //time between displaying each chracter
+    timeDelete: 100, //time between removing(backspace) each chracter
+    timePause: 1000, //waiting time after displaying text
+    repeat: true,  //loop it indefinitely
+    callback: function() {
+        console.log('called when the entire array of messages has been completed.');
+    }
+});  
+    
+    $(function () {
     $.scrollUp({scrollImg: true});
-});
+    });
   </script>
   
 </body>
