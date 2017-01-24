@@ -13,6 +13,10 @@ body {
   padding: 10px;
 }
 
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
 
 /* _top navigation */
 
@@ -53,13 +57,25 @@ body {
   color: 1c1c1c;
 }
 
+.uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .headline h1 {
-  font-size: 115px;
-  line-height: 125px;
+    font-size: 110px;
+    line-height: 120px;
+    word-spacing: 10px;
+    /*font-style: italic;*/
+    /*text-transform: uppercase;*/
 }
 
 .headline h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -226,7 +242,7 @@ body {
 
 .thumb-text {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   color: 1c1c1c;
 }
 
