@@ -3,6 +3,16 @@ body {
   background-color: #f8f8f8;
 }
 
+/* _mobile menu */
+
+.navbar-default .navbar-toggle {
+    border-color:#f8f8f8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ff5851;
+}
+
 /* _layout */
 
 #hidden {
