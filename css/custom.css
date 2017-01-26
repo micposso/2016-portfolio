@@ -3,6 +3,10 @@ body {
   background-color: #f8f8f8;
 }
 
+.tip {
+  cursor: pointer;
+}
+
 /* _mobile menu */
 
 .navbar-default .navbar-toggle {
