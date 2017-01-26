@@ -46,7 +46,7 @@ a:hover {
 
 .navbar {
   margin-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 17px;
 }
 
@@ -102,7 +102,7 @@ a:hover {
 
 .headline h2 {
   font-size: 25px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .icon-tool {
@@ -180,7 +180,7 @@ a:hover {
 
 .footer {
   padding: 60px 0 60px 0px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .twitter {
@@ -268,13 +268,13 @@ a:hover {
 }
 
 .thumb-text {
-  font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Lato', sans-serif;
   font-size: 15px;
   color: 1c1c1c;
 }
 
 .footer-copy {
-  font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Lato', sans-serif;
   height: 50px;
 }
 
@@ -308,14 +308,25 @@ a:hover {
 }
 
 .projects-text, .projects-text-labs {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
+font-family: 'Lato', sans-serif;
+  font-size: 18px;
   line-height: 26px;
   margin-bottom: 50px;
 }
 
 .projects-text-labs {
-  margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.github-link {
+  font-size: 15px;
+  color: #ff5851;
+  font-weight: bold;
+}
+
+.github-link a {
+   color: #ff5851; 
 }
 
 .projects-lab {
@@ -323,6 +334,7 @@ a:hover {
   line-height: 30px;
   font-family: 'Libre Baskerville', serif;
   margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .project-thumb {
