@@ -5,7 +5,7 @@
       <div class="col-md-12 col-centered">
         <div class="projects-text-container">
           <h1 class="projects-headline">Coming Soon...</h1>
-          <p class="projects-text">Project information coming soon.</p>
+          <p class="projects-text"><a href="resume/michael_posso_resume_2017.pdf">Download my resume</a></p>
         </div>
         
         
