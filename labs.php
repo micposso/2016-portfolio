@@ -50,7 +50,7 @@
               <ul class="nav navbar-nav navbar-left tool-bar">
                 <li><img src="img/js.svg" width="55" class="icon-tool"></li>
                 <li><img src="img/gulp.svg" width="47" class="icon-tool"></li>
-                <li><img src="img/Sass_Logo_Color.svg" width="60" class="icon-tool"></li>
+                <li><img src="img/sass.svg" width="60" class="icon-tool"></li>
               </ul>
             </div>
           </div>
