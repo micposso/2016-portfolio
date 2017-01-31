@@ -1,50 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Michael Posso Portfolio - Nick Jr Birthday Club</title>
-  <meta name="description" content="###">
-  <meta name="###" content="###">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/ghost-typer.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> </head>
-
-<body>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container border-nav">
-      <div class="navbar-header">
-        <div class="visible-xs brand-mobile">Michael Posso / Front-End Developer</div>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Michael Posso</a></li>
-          <li class="social-icon instagram"><a href="">Instagram</a></li>
-          <li class="social-icon linkedin"><a href="https://www.linkedin.com/in/michaelposso
-">LinkedIn</a></li>
-          <li class="social-icon youtube"><a href="">YouTube</a></li>
-          <li class="social-icon github"><a href="https://github.com/micposso/">gitHub</a></li>
-          <li class="social-icon twitter"><a href="https://twitter.com/micposso">twitter</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-left">
-          <li><a href="../navbar/">Labs</a></li>
-          <li><a href="../navbar/">VR</a></li>
-          <li><a href="../navbar-static-top/">Blog</a></li>
-          <li><a href="./">Contact</a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-  </nav>
+<?php include("includes/header.php"); ?>
   <div class="container projects">
     <div class="row">
       <div class="col-md-12 col-centered">
@@ -62,8 +16,8 @@
                 <li><img src="img/js.svg" width="55" class="icon-tool"></li>
                 <li><img src="img/JQuery_logo.svg" width="55" class="icon-tool"></li>
               </ul>
-            </div>            
             </div>
+          </div>
           <div class="col-md-6 project-container">
             <h1 class="projects-lab"><span class="highlight">~</span>GitHub Profile Match</h1>
             <p class="projects-text-labs">This tool will find other developers with the same interest. Thsi project is currently inder development and hosted on GitHub. It is using Angular2 and the GitHub API. <span class="github-link"><a href="">See it on GitHub</a></span></p>
@@ -75,7 +29,7 @@
                 <li><img src="img/angular-logo.svg" width="55" class="icon-tool"></li>
               </ul>
             </div>
-            </div>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-6 project-container">
@@ -88,7 +42,7 @@
                 <li><img src="img/angular-logo.svg" width="55" class="icon-tool"></li>
               </ul>
             </div>
-            </div>
+          </div>
           <div class="col-md-6 project-container">
             <h1 class="projects-lab"><span class="highlight">~</span>Materialize Jekyll Theme</h1>
             <p class="projects-text-labs">This is a theme for the Jekyll static content management system using the Materialize framework. I used SASS for development and gulp for task running <span class="github-link"><a href="">See it on GitHub</a></span></p>
@@ -96,25 +50,12 @@
               <ul class="nav navbar-nav navbar-left tool-bar">
                 <li><img src="img/js.svg" width="55" class="icon-tool"></li>
                 <li><img src="img/gulp.svg" width="47" class="icon-tool"></li>
-                <li><img src="img/Sass_Logo_Color.svg"   width="60" class="icon-tool"></li>
+                <li><img src="img/Sass_Logo_Color.svg" width="60" class="icon-tool"></li>
               </ul>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="nav navbar-nav navbar-left footer">
-            <li class="footer-copy">© 2016 - Michael Posso</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
-
-</html>
+  <?php include("includes/footer.php"); ?>
