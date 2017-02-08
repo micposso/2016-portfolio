@@ -32,7 +32,7 @@
       </div>
       <div>
         <ul class="nav navbar-nav navbar-right hidden-xs">
-          <li><a href="/index.php">Michael Posso</a></li>
+          <li><a href="http://www.michaelposso.com/index.php">Michael Posso</a></li>
           <li class="social-icon instagram"><a href="">Instagram</a></li>
           <li class="social-icon linkedin"><a href="https://www.linkedin.com/in/michaelposso">LinkedIn</a></li>
           <li class="social-icon youtube"><a href="">YouTube</a></li>

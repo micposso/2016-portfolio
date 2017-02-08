@@ -8,21 +8,14 @@
         </div>
         <div class="row thumbs">
           <div class="col-md-6 project-container">
-            <h1 class="projects-lab">Founder Latino WebDevs MeetUp</h1>
-            <p class="projects-text-labs">This tool will find other developers with the same interest. Thsi project is currently inder development and hosted on GitHub. It is using Angular2 and the GitHub API.</p>
+            <h1 class="projects-lab"><span class="highlight">~</span>Founder Latino WebDevs MeetUp</h1>
+            <p class="projects-text-labs">This tool will find other developers with the same interest. Thsi project is currently inder development and hosted on GitHub. It is using Angular2 and the GitHub API. <span class="github-link"><a href="https://www.meetup.com/Latino-Web-Developers-NYC/">MeetUp</a></span></p>
             <a href=""><img src="img/meetup.jpg" class="img-responsive"></a>
           </div>
           <div class="col-md-6 project-container">
-            <h1 class="projects-lab">Online Instructor Platzi</h1>
-            <p class="projects-text-labs">I built this tool to help email developers export their moduels as individual HTML files. It uses JSzip a library that saves and exports files as zip packages.</p>
+            <h1 class="projects-lab"><span class="highlight">~</span>Online Instructor Platzi</h1>
+            <p class="projects-text-labs">I built this tool to help email developers export their moduels as individual HTML files. It uses JSzip a library that saves and exports files as zip packages. <span class="github-link"><a href="https://platzi.com/clases/diseno-email/">Platzi</a></span></p>
             <a href=""><img src="img/platzi.jpg" class="img-responsive"></a>
-          </div>
-        </div>
-        <div class="row thumbs">
-          <div class="col-md-6 project-container">
-            <h1 class="projects-lab">Educational YouTube Channel</h1>
-            <p class="projects-text-labs">Currently </p>
-            <a href=""><img src="img/channel.jpg" class="img-responsive"></a>
           </div>
         </div>
       </div>
