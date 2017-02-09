@@ -20,7 +20,7 @@
           </div>
           <div class="col-md-6 project-container">
             <h1 class="projects-lab"><span class="highlight">~</span>GitHub Profile Match</h1>
-            <p class="projects-text-labs">This tool will find other developers with the same interest. Thsi project is currently inder development and hosted on GitHub. It is using Angular2 and the GitHub API. <span class="github-link"><a href="https://github.com/micposso/GitHug">See it on GitHub</a></span></p>
+            <p class="projects-text-labs">This tool will find other developers with the same interest. This project is currently inder development and hosted on GitHub. It is using Angular2 and the GitHub API. <span class="github-link"><a href="https://github.com/micposso/GitHug">See it on GitHub</a></span></p>
             <div class="container">
               <ul class="nav navbar-nav navbar-left tool-bar">
                 <li><img src="img/github.svg" width="55" class="icon-tool"></li>
