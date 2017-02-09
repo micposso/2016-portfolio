@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="nav navbar-nav navbar-left footer">
-          <li class="footer-copy"><?php echo date("Y")." - Michael Posso"; ?></li>
+          <li class="footer-copy"><?php echo date("Y")." - Michael Posso"; ?> - This site is under construction -</li>
         </ul>
       </div>
     </div>
