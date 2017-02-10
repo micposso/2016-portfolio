@@ -299,9 +299,15 @@ font-family: 'Lato', sans-serif;
   padding: 0px 10px 0px 10px;
 }
 
-.projects-headline, .projects-next {
+.projects-headline {
   font-size: 70px;
   line-height: 75px;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 30px;
+}
+
+.projects-next {
+  font-size: 45px;
   font-family: 'Libre Baskerville', serif;
   margin-bottom: 30px;
 }

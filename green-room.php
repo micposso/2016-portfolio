@@ -12,7 +12,7 @@
           <div class="col-md-6 project-container"> <img src="img/bb-project-3b.png" class="img-responsive"> </div>
         </div>
         <div class="row single-img">
-          <img src="img/bb-project-3c.png" class="img-responsive"> 
+          <img src="img/bb-project-1c.png" class="img-responsive"> 
         </div>
              <div class="projects-text-container">
        <h1 class="projects-next"><a href="joost.php">Next Project ></a></h1>
