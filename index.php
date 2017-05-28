@@ -10,10 +10,10 @@
       <div class="container visible-lg visible-md">
         <ul class="nav navbar-nav navbar-left tool-bar">
           <li><img src="img/HTML5-logo.svg" width="68" class="icon-tool tip" title="HTML5"></li>
+          <li><img src="img/bootstrap.png" width="100" class="icon-tool tip" title="Bootstrap"></li>
           <li><img src="img/sass.svg" width="100" class="icon-tool tip" title="Sass"></li>
-          <li><img src="img/github.svg" width="100" class="icon-tool tip" title="GitHub"></li>
+          <li><img src="img/Wordpress-Logo.svg" width="100" class="icon-tool tip" title="Wordpress"></li>
           <li><img src="img/JQuery_logo.svg" width="100" class="icon-tool tip" title="Jquery"></li>
-          <li><img src="img/ts1.png" width="120" class="icon-tool tip" title="TypeScript"></li>
           <li><img src="img/react.svg" width="100" class="icon-tool tip" title="React"></li>
           <li><img src="img/angular-logo.svg" width="115" class="icon-tool tip" title="Angular2"></li>
           <li><img src="img/gulp.svg" width="85" class="icon-tool tip" title="Gulp"></li>
@@ -23,10 +23,10 @@
       <div class="container visible-xs visible-sm">
         <ul class="nav navbar-nav navbar-left tool-bar">
           <li><img src="img/HTML5-logo.svg" width="25" class="icon-tool tip" title="HTML5"></li>
+          <li><img src="img/bootstrap.png" width="50" class="icon-tool tip" title="Bootstrap"></li>
           <li><img src="img/sass.svg" width="50" class="icon-tool tip" title="Sass"></li>
-          <li><img src="img/github.svg" width="50" class="icon-tool tip" title="GitHub"></li>
+          <li><img src="img/Wordpress-Logo.svg" width="50" class="icon-tool tip" title="Wordpress"></li>
           <li><img src="img/JQuery_logo.svg" width="50" class="icon-tool tip" title="Jquery"></li>
-          <li><img src="img/ts1.png" width="50" class="icon-tool tip" title="TypeScript"></li>
           <li><img src="img/react.svg" width="50" class="icon-tool tip" title="React"></li>
           <li><img src="img/angular-logo.svg" width="50" class="icon-tool tip" title="Angular2"></li>
           <li><img src="img/gulp.svg" width="30" class="icon-tool tip" title="Gulp"></li>

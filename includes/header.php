@@ -21,7 +21,7 @@
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  
+
   <!-- GA code -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -47,7 +47,7 @@
       <div>
         <ul class="nav navbar-nav navbar-right hidden-xs">
           <li><a href="http://www.michaelposso.com/index.php">Michael Posso</a></li>
-          <li class="social-icon instagram"><a href="">Instagram</a></li>
+          <li class="social-icon instagram"><a href="https://www.instagram.com/micposso/">Instagram</a></li>
           <li class="social-icon linkedin"><a href="https://www.linkedin.com/in/michaelposso">LinkedIn</a></li>
           <li class="social-icon youtube"><a href="">YouTube</a></li>
           <li class="social-icon github"><a href="https://github.com/micposso/">gitHub</a></li>
