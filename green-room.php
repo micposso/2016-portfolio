@@ -8,11 +8,11 @@
           <p class="projects-text">The Green Room is a comedy show with an innovative and uncensored format that aired in Showtime. As part of the digital marketing efforts, I designed and coded a series of Interactive PDFs, featuring Bios of the comedians, videos and production information. This Interactive PDF was designed using Adobe InDesign and Adobe Flash for interactive features and were under 5 megabites for easy e-mailing.</p>
         </div>
         <div class="row thumbs">
-          <div class="col-md-6 project-container"> <img src="img/bb-project-3a.png" class="img-responsive"> </div>
-          <div class="col-md-6 project-container"> <img src="img/bb-project-3b.png" class="img-responsive"> </div>
+          <div class="col-md-6 project-container"> <img src="img/gr-project-3a.png" class="img-responsive"> </div>
+          <div class="col-md-6 project-container"> <img src="img/gr-project-3b.png" class="img-responsive"> </div>
         </div>
         <div class="row single-img">
-          <img src="img/bb-project-1c.png" class="img-responsive"> 
+          <img src="img/gr-project-3c.png" class="img-responsive"> 
         </div>
              <div class="projects-text-container">
        <h1 class="projects-next"><a href="joost.php">Next Project ></a></h1>
